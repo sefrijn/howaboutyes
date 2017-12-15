@@ -1,9 +1,9 @@
 <?php
 /**
- * @package Sefrijn
+ * @package HowAboutYes
  */
 
-	get_header('pages');
+	get_header();
 ?>
 <div id="page">
 	<?php if (have_posts()) : ?>

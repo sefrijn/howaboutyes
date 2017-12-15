@@ -1,0 +1,79 @@
+.wpcf7{
+	.strippenkaart{
+		.wpcf7-radio{
+			.wpcf7-list-item{
+				display: inline-block;
+				height:150px;
+				width:30.0%;
+				margin:0 5% 0 0;					
+				label, .wpcf7-list-item-label{
+					display: inline-block;
+					background-color:#eee;
+					width: 100%;
+					height:100%;
+					&:hover{
+						cursor:pointer;
+					}					
+				}
+				.wpcf7-list-item-label{
+					text-align: center;
+					position:relative;	
+					padding-top:12px;
+					font-weight: 500;
+				}
+				&.last{
+					margin-right:0;
+				}
+				input[type=radio]{
+					display: none;
+				}
+				.wpcf7-list-item-label:before, .wpcf7-list-item-label:after{
+					display: block;
+					position: absolute;
+					left:50%;
+					transform:translateX(-50%);
+					width:100%;
+				}
+				.wpcf7-list-item-label:before{
+					top:35px;
+					font-size:48px;
+					color:$blue;
+				}				
+				&:nth-of-type(1) .wpcf7-list-item-label:before{
+					content:'€480';
+				}	
+				&:nth-of-type(2) .wpcf7-list-item-label:before{
+					content:'€775';
+				}	
+				&:nth-of-type(3) .wpcf7-list-item-label:before{
+					content:'€1500';
+				}
+
+				.wpcf7-list-item-label:after{
+					top:100px;
+					font-size:22px;
+					left:50%;
+					color:gray;
+					font-weight: 400;
+				}
+				&:nth-of-type(1) .wpcf7-list-item-label:after{
+					content:'€80,00 p.uur';
+				}	
+				&:nth-of-type(2) .wpcf7-list-item-label:after{
+					content:'€77,50 p.uur';
+				}	
+				&:nth-of-type(3) .wpcf7-list-item-label:after{
+					content:'€75,00 p.uur';
+				}	
+	
+				input:checked + .wpcf7-list-item-label {
+    				background: $blue;
+    				color:black;
+    				&:before{
+    					color:white;
+    				}
+				}
+			}
+		}
+	}
+}

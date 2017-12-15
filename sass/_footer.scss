@@ -1,0 +1,21 @@
+footer{
+	margin-top:80px;
+	// background-color:black;
+	background:url('../img/footer.jpg') no-repeat center center;
+	background-size:cover;
+	.col-md-3, .col-md-6{
+		padding:25px 15px;
+		font-size:20px;
+		p{
+			color:white;
+		}
+		img{
+			width:20px;
+			height:auto;
+			margin-right:6px;
+			&:nth-of-type(2){
+				margin-top:-3px;
+			}
+		}
+	}
+}

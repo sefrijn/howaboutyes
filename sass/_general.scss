@@ -1,0 +1,63 @@
+body{
+	font-family:'Futura';
+	padding-top:65px;
+	font-weight:400;
+
+ -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+      -o-font-smoothing: antialiased;	
+}
+
+h1{
+	font-size:100px;
+	margin-bottom:-10px;
+}
+h2{
+	color: $blue;
+	font-size:80px;
+	margin-bottom:18px;
+}
+h3{
+	font-size:42px;
+}
+
+.btn{
+	color:white;
+}
+.elementor-size-md{
+	font-size: 1.4rem !important;
+}
+
+
+.row.image{
+	height:100%;
+	margin:0;
+}
+.row.page-blocks > div{
+	margin-bottom:30px;
+}
+
+.page-top-image{
+	height:500px;
+	font-weight:500;
+	margin-bottom:50px;
+}
+
+.wpcf7-form{
+	input[type=text],input[type=email], textarea{
+		width:100%;
+		border:1px solid #eeeeee;
+		// border-radius:5px;
+		padding:5px 10px;
+		&:focus{
+			outline: none;
+			border: 1px solid $blue;
+			box-shadow:0 0 5px rgba($blue, 0.4);
+		}
+	}
+	textarea{
+		height:250px;
+		resize: none;
+	}
+
+}

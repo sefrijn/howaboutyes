@@ -1,0 +1,36 @@
+.page-template-page-portfolio{
+	.page-intro h1{
+		margin: 40px 0;
+	}
+
+	.portfolio-overview{
+		h2{
+			color:white;
+			margin:240px auto 0;
+		}
+		.image{
+			height:400px;
+		}
+	}
+	.portfolio-image {
+		margin-bottom:40px;
+		a{
+			text-shadow:0 0 15px rgba(0,0,0,0.3);
+			&:hover{
+				color:white;
+			}
+		}
+	}
+	.portfolio-description{
+		margin-bottom:75px;
+		.details{
+			color: $blue;
+		}
+		img{
+			margin-top:10px;
+			max-height:120px;
+			width:auto;
+			max-width: 100%;
+		}
+	}
+}

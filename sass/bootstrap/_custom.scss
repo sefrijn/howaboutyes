@@ -1,0 +1,15 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+$blue:   #4ACC8B;
+
+
+$font-size-base: 1.40rem;
+$font-size-lg:   1.60rem;
+$font-size-sm:   .875rem;
+$font-size-xs:   .75rem;
+
+$navbar-light-color:                rgba(0, 0, 0, 0.9);
+$navbar-light-hover-color:          $blue;

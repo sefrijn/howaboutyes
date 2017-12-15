@@ -1,0 +1,38 @@
+.navbar{
+	font-weight:500;
+	background-color:white;
+	.current-menu-item .nav-link{
+		color: $blue !important;
+	}
+	&:after{
+		position:absolute;
+		top:65px;
+		display: block;
+		content:'';
+		width:100%;
+		height:20px;
+		background:url('../img/header-bg.png') no-repeat center center;
+		background-position: cover;
+	}
+}
+
+@media (min-width: 768px){
+	.navbar-expand-md .navbar-nav .nav-item{
+		.nav-link{
+			padding-left:15px;
+			padding-right:15px;
+		}
+		&:last-of-type{
+			.nav-link{
+				padding-right:0;
+			}
+		}
+	}
+}
+.wpml-ls-menu-item .wpml-ls-flag{
+	width:24px !important;
+	height:24px !important;
+	margin-top:4px;
+	margin-left:8px;
+	float:right;
+}
