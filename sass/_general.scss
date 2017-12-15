@@ -1,29 +1,55 @@
 body{
-	font-family:'Futura';
+	font-family:'futura-pt', "futura-pt-n4", 'Futura', sans-serif;
 	padding-top:65px;
 	font-weight:400;
 
  -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
-      -o-font-smoothing: antialiased;	
+      -o-font-smoothing: antialiased;
+
+	font-size: 1.2rem;
+	@include media-breakpoint-up(md){
+		font-size: 1.4rem;
+	}
 }
 
 h1{
-	font-size:100px;
-	margin-bottom:-10px;
+	font-size:60px;
+	margin-bottom:15px;
+	@include media-breakpoint-up(md){
+		font-size:100px;
+		margin-bottom:-10px;
+	}
 }
 h2{
 	color: $blue;
-	font-size:80px;
+	font-size:45px;
 	margin-bottom:18px;
+	@include media-breakpoint-up(md){
+		font-size:70px;
+	}	
 }
 h3{
-	font-size:42px;
+	font-size:32px;
+	@include media-breakpoint-up(md){
+		font-size:42px;
+	}	
+}
+h4{
+	font-size:25px;
+	@include media-breakpoint-up(md){
+		font-size:30px;
+	}	
 }
 
 .btn{
 	color:white;
 }
+.btn-inline{
+	display: inline-block;
+	margin-right:10px;
+}
+
 .elementor-size-md{
 	font-size: 1.4rem !important;
 }
@@ -31,6 +57,9 @@ h3{
 
 .row.image{
 	height:100%;
+	@include media-breakpoint-down(sm){	
+		height:350px;
+	}
 	margin:0;
 }
 .row.page-blocks > div{
@@ -39,6 +68,12 @@ h3{
 
 .page-top-image{
 	height:500px;
+	@include media-breakpoint-down(sm){	
+		height:450px;
+		.row.image{
+			height:450px;
+		}
+	}
 	font-weight:500;
 	margin-bottom:50px;
 }
@@ -46,6 +81,7 @@ h3{
 .wpcf7-form{
 	input[type=text],input[type=email], textarea{
 		width:100%;
+		-webkit-appearance: none;
 		border:1px solid #eeeeee;
 		// border-radius:5px;
 		padding:5px 10px;
@@ -59,5 +95,15 @@ h3{
 		height:250px;
 		resize: none;
 	}
+}
 
+// Elementor Fixes
+.elementor-top-section > .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+	padding:15px !important;
+	@include media-breakpoint-up(md) {
+		// padding:15px !important;
+	}
+}
+.container .elementor{
+	margin:0 -15px;
 }

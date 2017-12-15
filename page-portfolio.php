@@ -45,10 +45,10 @@ get_header();
 			</div>
 			<div class="container portfolio-description">
 				<div class="row">
-					<div class="col-md-5 offset-md-2">
+					<div class="col-md-6 offset-md-1 col-lg-5 offset-lg-2">
 						<?php the_content(); ?>
 					</div>
-					<div class="col-md-3 offset-md-1 details">
+					<div class="col-md-4 col-lg-3 offset-lg-1 details">
 						<?php echo get_field('project_date'); ?><br>
 						<?php echo get_field('project_type'); ?><br>
 						<a href="http://<?php echo get_field('project_website'); ?>"><img src="<?php echo get_field('project_logo'); ?>" alt=""></a>

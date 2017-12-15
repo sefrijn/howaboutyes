@@ -18,7 +18,7 @@ $post = get_post($page_ID);
 	<div class="row page-top-image">		
 		<div class="col-md-12 text-center">
 			<div class="image row" >
-				<div class="text-wrapper my-auto">
+				<div class="text-wrapper align-self-center">
 					<h1><?php bloginfo('name'); ?></h1>
 					<p class="subtitle"><?php echo get_field('subtitle'); ?></p>
 				</div>			

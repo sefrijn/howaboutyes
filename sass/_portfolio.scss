@@ -31,6 +31,10 @@
 			max-height:120px;
 			width:auto;
 			max-width: 100%;
+			@include media-breakpoint-down(sm){
+				max-width:60%;
+			}
+
 		}
 	}
 }

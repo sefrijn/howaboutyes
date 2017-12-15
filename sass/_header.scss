@@ -12,8 +12,48 @@
 		width:100%;
 		height:20px;
 		background:url('../img/header-bg.png') no-repeat center center;
-		background-position: cover;
+		background-size: 100% 100%;
 	}
+
+	@include media-breakpoint-down(sm){
+		.navbar-nav{
+			padding-top:15px;
+		}
+		.navbar-brand{
+			margin-right:0;
+		}
+		a.nav-link{
+			font-size:23px;
+		}
+		// #menu-header{
+		//     background-color: wheat;
+		//     margin-top: 8px !important;
+		//     margin-bottom: -8px !important;
+		//     margin-left: -16px !important;
+		//     padding-left: 16px !important;
+		//     margin-right: -16px !important;
+		// }
+	}
+
+
+	.navbar-toggler{
+		border-color:transparent !important;
+		padding:0;
+		margin-left:-3px;
+	}
+
+	.wpml-ls-menu-item .wpml-ls-flag{
+		width:24px !important;
+		height:24px !important;
+		margin-bottom:-5px;
+		@include media-breakpoint-up(sm){	
+			margin-bottom:0;
+			margin-top:4px;
+			margin-left:8px;
+			float:right;
+		}
+	}
+
 }
 
 @media (min-width: 768px){
@@ -29,10 +69,4 @@
 		}
 	}
 }
-.wpml-ls-menu-item .wpml-ls-flag{
-	width:24px !important;
-	height:24px !important;
-	margin-top:4px;
-	margin-left:8px;
-	float:right;
-}
+

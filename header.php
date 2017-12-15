@@ -38,13 +38,8 @@
 	<?php 
 	  if ( is_admin_bar_showing() ) echo '
 	  	<style>
-			@media screen and (min-width: 601px){
-				.navigation{
-					top:273px !important;
-				}
-				nav{
-					top:46px !important;
-				}
+			nav{
+				top:46px !important;
 			}
 			@media screen and (min-width: 783px){
 				.navigation{

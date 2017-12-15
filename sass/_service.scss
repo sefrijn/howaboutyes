@@ -1,3 +1,20 @@
+.servicewaarvoor{
+	.container{
+		padding:0;
+		@include media-breakpoint-down(sm){
+			margin:0 -10px;
+		}		
+	}
+}
+#voorwaarden{
+	ol{
+		padding-left:20px;
+		li{
+			margin-bottom:11px;
+		}
+	}
+}
+
 .wpcf7{
 	.strippenkaart{
 		.wpcf7-radio{
@@ -37,6 +54,9 @@
 				.wpcf7-list-item-label:before{
 					top:35px;
 					font-size:48px;
+					@include media-breakpoint-down(sm){
+						font-size:36px;
+					}					
 					color:$blue;
 				}				
 				&:nth-of-type(1) .wpcf7-list-item-label:before{
@@ -52,7 +72,12 @@
 				.wpcf7-list-item-label:after{
 					top:100px;
 					font-size:22px;
-					left:50%;
+					@include media-breakpoint-down(sm){
+						top:88px;
+						font-size:22px;
+						line-height: 1;
+					}					
+					// left:50%;
 					color:gray;
 					font-weight: 400;
 				}
@@ -65,13 +90,13 @@
 				&:nth-of-type(3) .wpcf7-list-item-label:after{
 					content:'€75,00 p.uur';
 				}	
-	
+
 				input:checked + .wpcf7-list-item-label {
-    				background: $blue;
-    				color:black;
-    				&:before{
-    					color:white;
-    				}
+					background: $blue;
+					color:black;
+					&:before{
+						color:white;
+					}
 				}
 			}
 		}
