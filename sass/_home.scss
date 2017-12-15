@@ -1,6 +1,9 @@
 .page-blocks{
 	@include media-breakpoint-down(sm){
 		height:auto;
+		.row.image{
+			margin:0 -15px;
+		}
 	}
 	height:800px;
 	margin-top:60px;

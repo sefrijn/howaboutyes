@@ -8481,46 +8481,46 @@ h4 {
     .row.image {
       height: 350px; } }
 
-/* line 65, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+/* line 66, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
 .row.page-blocks > div {
   margin-bottom: 30px; }
 
-/* line 69, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+/* line 70, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
 .page-top-image {
   height: 500px;
   font-weight: 500;
   margin-bottom: 50px; }
   @media (max-width: 767px) {
-    /* line 69, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+    /* line 70, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
     .page-top-image {
       height: 450px; }
-      /* line 73, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+      /* line 74, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
       .page-top-image .row.image {
         height: 450px; } }
 
-/* line 82, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+/* line 83, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
 .wpcf7-form input[type=text], .wpcf7-form input[type=email], .wpcf7-form textarea {
   width: 100%;
   -webkit-appearance: none;
   border: 1px solid #eeeeee;
   padding: 5px 10px; }
-  /* line 88, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+  /* line 89, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
   .wpcf7-form input[type=text]:focus, .wpcf7-form input[type=email]:focus, .wpcf7-form textarea:focus {
     outline: none;
     border: 1px solid #4ACC8B;
     -webkit-box-shadow: 0 0 5px rgba(74, 204, 139, 0.4);
             box-shadow: 0 0 5px rgba(74, 204, 139, 0.4); }
 
-/* line 94, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+/* line 95, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
 .wpcf7-form textarea {
   height: 250px;
   resize: none; }
 
-/* line 101, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+/* line 102, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
 .elementor-top-section > .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
   padding: 15px !important; }
 
-/* line 107, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
+/* line 108, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_general.scss */
 .container .elementor {
   margin: 0 -15px; }
 
@@ -8537,32 +8537,34 @@ h4 {
     top: 65px;
     display: block;
     content: '';
+    left: 0;
+    right: 0;
     width: 100%;
     height: 20px;
     background: url("../img/header-bg.png") no-repeat center center;
     background-size: 100% 100%; }
   @media (max-width: 767px) {
-    /* line 19, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+    /* line 21, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
     .navbar .navbar-nav {
       padding-top: 15px; }
-    /* line 22, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+    /* line 24, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
     .navbar .navbar-brand {
       margin-right: 0; }
-    /* line 25, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+    /* line 27, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
     .navbar a.nav-link {
       font-size: 23px; } }
-  /* line 39, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+  /* line 41, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
   .navbar .navbar-toggler {
     border-color: transparent !important;
     padding: 0;
     margin-left: -3px; }
-  /* line 45, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+  /* line 47, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
   .navbar .wpml-ls-menu-item .wpml-ls-flag {
     width: 24px !important;
     height: 24px !important;
     margin-bottom: -5px; }
     @media (min-width: 576px) {
-      /* line 45, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+      /* line 47, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
       .navbar .wpml-ls-menu-item .wpml-ls-flag {
         margin-bottom: 0;
         margin-top: 4px;
@@ -8570,11 +8572,11 @@ h4 {
         float: right; } }
 
 @media (min-width: 768px) {
-  /* line 61, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+  /* line 63, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
   .navbar-expand-md .navbar-nav .nav-item .nav-link {
     padding-left: 15px;
     padding-right: 15px; }
-  /* line 66, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
+  /* line 68, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_header.scss */
   .navbar-expand-md .navbar-nav .nav-item:last-of-type .nav-link {
     padding-right: 0; } }
 
@@ -8606,36 +8608,39 @@ footer {
   @media (max-width: 767px) {
     /* line 1, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
     .page-blocks {
-      height: auto; } }
+      height: auto; }
+      /* line 4, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+      .page-blocks .row.image {
+        margin: 0 -15px; } }
 
 @media (max-width: 767px) {
-  /* line 11, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+  /* line 14, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
   .home .page-top-image h1 {
     font-size: 55px; } }
 
-/* line 16, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+/* line 19, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
 .home .page-top-image .subtitle {
   font-size: 30px; }
   @media (max-width: 767px) {
-    /* line 16, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+    /* line 19, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
     .home .page-top-image .subtitle {
       font-size: 26px;
       line-height: 1.0; } }
 
-/* line 27, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+/* line 30, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
 .text-wrapper {
   color: white;
   text-shadow: rgba(0, 0, 0, 0.4) 0 0 50px;
   width: 100%; }
 
-/* line 33, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+/* line 36, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
 .home-contact {
   margin-top: 50px; }
-  /* line 35, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+  /* line 38, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
   .home-contact .image {
     height: 250px; }
     @media (min-width: 576px) {
-      /* line 35, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
+      /* line 38, Users/sefrijn/Sites/howaboutyes/wp-content/themes/howaboutyes/sass/_home.scss */
       .home-contact .image {
         height: calc(100% - 140px);
         margin-top: 140px; } }

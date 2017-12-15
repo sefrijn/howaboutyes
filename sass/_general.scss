@@ -57,10 +57,11 @@ h4{
 
 .row.image{
 	height:100%;
+	margin:0;
 	@include media-breakpoint-down(sm){	
 		height:350px;
+		// margin:0 -15px;
 	}
-	margin:0;
 }
 .row.page-blocks > div{
 	margin-bottom:30px;
