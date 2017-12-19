@@ -1,5 +1,6 @@
 <?php
-$page_ID = $post->ID; 
+// $post = get_page(icl_object_id($post->ID));
+$page_ID = icl_object_id($post->ID); //$post->ID; 
 include(__DIR__ .'/thumbnail.php');
 ?>
 

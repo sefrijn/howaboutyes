@@ -33,6 +33,16 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 	<!-- Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11737642-8"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-11737642-8');
+	</script>
+
 
 	<!-- Admin bar offset -->
 	<?php 

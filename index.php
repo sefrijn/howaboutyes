@@ -3,7 +3,7 @@
 <?php
 
 // Get home page and ID
-$page_ID = get_ID_by_slug('home');
+$page_ID = icl_object_id(get_ID_by_slug('home'));
 $post = get_post($page_ID);
 ?>
 
@@ -20,7 +20,7 @@ $post = get_post($page_ID);
 			<div class="image row" >
 				<div class="text-wrapper align-self-center">
 					<h1><?php bloginfo('name'); ?></h1>
-					<p class="subtitle"><?php echo get_field('subtitle'); ?></p>
+					<p class="subtitle"><?php echo get_bloginfo( 'description', 'display' ); ?></p>
 				</div>			
 			</div>
 		</div>
@@ -56,7 +56,7 @@ $post = get_post($page_ID);
 <div class="container home-contact">
 	<div class="row">
 		<?php 
-		$page_ID = get_ID_by_slug('home');
+		$page_ID = icl_object_id(get_ID_by_slug('home'));
 		$thumbnail = get_field('contact_photo',$page_ID); 
 		?>
 		<div class="col-md-6"><?php echo get_field('contact_form',$page_ID); ?></div>		
